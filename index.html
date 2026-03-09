@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majestic Company - Premium Digital Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">MAJESTIC COMPANY</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#ads">Ads</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button class="btn-login" onclick="window.location.href='login.html'">Login</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-title">Welcome to Majestic Company</h1>
+            <p class="animate-text">Premium Digital Products & Professional Services</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explore Products</a>
+                <a href="https://wa.me/919371270065" class="btn btn-whatsapp">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid" id="services-container"></div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Digital Products</h2>
+        <div class="products-grid" id="products-container"></div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <h2>Video Gallery</h2>
+        <div class="videos-grid" id="videos-container"></div>
+    </section>
+
+    <!-- Ads Section -->
+    <section id="ads">
+        <h2>Promotional Ads</h2>
+        <div class="ads-grid" id="ads-container"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" id="contactName" placeholder="Your Name" required>
+                <input type="tel" id="contactPhone" placeholder="Mobile Number" required>
+                <textarea id="contactMsg" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Majestic Company. All rights reserved.</p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919371270065" class="whatsapp-float" target="_blank">💬</a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
